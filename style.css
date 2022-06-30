@@ -772,3 +772,51 @@ nav.mobile-nav, .mobile-menu-container{
 		text-align: center;
 	}
 }
+
+
+@media screen and (max-width: 700px) and (max-height: 400px) {
+	.hero-section .right{
+		overflow: hidden;
+		transform: translateX(100px);
+	}
+	.hero-section .left h1{
+		font-size: 35px;
+	}
+	.hero-section .left p{
+		font-size: 14px;
+	}
+	nav{
+		padding: 15px 100px;
+	}
+	.hero-section .right img {
+	  height: 257px;
+	  transform: translateX(20px);
+	}
+	.achivement-card.overall-rating .content img {
+	  width: 30px;
+	  height: 40px;
+	  position: relative;
+	  left: -15px;
+	}
+	.achivement-card.student-enrolled, .achivement-card.overall-rating {
+	  left: 150%;
+	  top: -80%;
+	}
+	.hero-section .achivement-card{
+		margin-bottom: 20px;
+	}
+	.achivement-card .content{
+		padding: 2px 12px;
+	}
+	.achivement-card h3{
+		font-size: 20px;
+	}
+	.achivement-card p{
+		font-size: 12px;
+	}
+	.course-section .course-card::after {
+	  width: 87.2%;
+	}
+}
+
+
