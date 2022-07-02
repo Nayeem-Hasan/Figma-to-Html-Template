@@ -871,7 +871,10 @@ nav.mobile-nav, .mobile-menu-container{
 	    transform: translateX(25px);
 	}
 	.course-section .course-card::after {
-    	width: 90.2%;
+    		width: 90.2%;
+	}
+	.hero-section .achivement-card {
+    		margin-bottom: 20px;
 	}
 
 }
