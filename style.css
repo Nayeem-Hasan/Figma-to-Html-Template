@@ -839,7 +839,7 @@ nav.mobile-nav, .mobile-menu-container{
 	}
 }
 
-@media screen and (min-width: 420px){
+@media screen and (max-width: 420px){
 
 	.hero-section .right img {
 	    height: 340px;
@@ -853,7 +853,7 @@ nav.mobile-nav, .mobile-menu-container{
 	}
 }
 
-@media screen and (min-width: 620px) and (max-width: 700px) and (max-height: 350px){
+@media screen and (min-width: 650px) and (max-width: 700px) and (max-height: 400px){
 	.achivement-card.student-enrolled, .achivement-card.overall-rating {
 	    left: 180%;
 	    top: -50%;
@@ -871,10 +871,15 @@ nav.mobile-nav, .mobile-menu-container{
 	    transform: translateX(25px);
 	}
 	.course-section .course-card::after {
-    		width: 90.2%;
-	}
-	.hero-section .achivement-card {
-    		margin-bottom: 20px;
+    	width: 90.2%;
 	}
 
+}
+@media screen and (max-height: 644px) {
+	.hero-section .right img{
+		height: 530px;
+	}
+	.achivement-card.overall-rating {
+		top: 500px;
+	}
 }
